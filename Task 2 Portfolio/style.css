@@ -1,0 +1,388 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    background-color: #000000; /* Background color of the header */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff; /* Text color for the logo/name */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Adjust spacing between navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Text color for navigation links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #00bcd4; /* Color on hover */
+}
+
+
+#about {
+    background-color: #8adee2; /* Background color for the About section */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; /* Set a maximum width for content */
+    margin: 0 auto; /* Center align content */
+    padding: 0 20px; /* Add some padding to the sides */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    text-align: left;
+    margin-bottom: 20px; /* Add spacing between text and image */
+}
+
+.about-text h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+}
+
+.about-text p {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height */
+    color: #555; /* Text color */
+}
+
+.about-image img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to the image */
+}
+
+#projects {
+    background-color: #f9f9f9; /* Background color for the Projects section */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 30px; /* Add spacing below the heading */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Add spacing between projects */
+}
+
+.project img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to images */
+}
+
+.project-info h3 {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-top: 10px; /* Add spacing above project titles */
+}
+
+.project-info p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Text color */
+}
+
+
+#resume {
+    background-color: #8adee2; /* Background color for the Resume section */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+#resume p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Text color */
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    font-size: 16px; /* Button font size */
+    border-radius: 5px; /* Add rounded corners to the button */
+    margin-top: 20px; /* Add spacing above the button */
+}
+
+#resume a:hover {
+    background-color: #008ba3; /* Button color on hover */
+}
+
+
+
+#contact {
+    background-color: #f9f9f9; /* Background color for the Contact section */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+#contact p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Text color */
+}
+
+.contact-info {
+    margin-top: 20px; /* Add spacing above contact information */
+}
+
+.contact-info p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Add spacing between contact info lines */
+}
+
+.contact-info a {
+    text-decoration: none; /* Remove underlines from email and phone links */
+    color: #00bcd4; /* Link color */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.contact-info a:hover {
+    color: #008ba3; /* Link color on hover */
+}
+
+
+
+
+#skills {
+    background-color: #f5f5f5; /* Background color for the Skills section */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.skill {
+    margin-bottom: 20px; /* Add spacing between skills */
+}
+
+.skill h3 {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Add spacing below skill titles */
+}
+
+.skill-bar {
+    background-color: #e0e0e0; /* Background color for the skill bars */
+    height: 10px; /* Height of the skill bars */
+    border-radius: 5px; /* Rounded corners for the skill bars */
+}
+
+.skill-level {
+    background-color: #00bcd4; /* Color for the skill level (adjust width to change) */
+    height: 100%; /* Full height of the skill level */
+    border-radius: 5px; /* Rounded corners for the skill level */
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px; 
+}
+
+
+
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+    header {
+        padding: 20px 10%; 
+    }
+
+    .nav-links li {
+        margin-right: 30px;
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px; 
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center; /* Center-align navigation links */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Add spacing between navigation links */
+    }
+
+    .logo {
+        text-align: center; /* Center-align the logo or name */
+        margin-bottom: 20px; /* Add spacing below the logo/name */
+    }
+}
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+    .about-content {
+        flex-direction: row; /* Display text and image side by side */
+    }
+
+    .about-text {
+        width: 60%; /* Adjust text width for larger screens */
+        margin-right: 4%; /* Add spacing between text and image */
+    }
+
+    .about-image {
+        width: 36%; 
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column; 
+    }
+
+    .about-text {
+        width: 100%; /* Full width for text on smaller screens */
+        margin-right: 0; /* Remove spacing between text and image */
+    }
+
+    .about-image {
+        width: 100%; /* Full width for the image on smaller screens */
+        margin-top: 20px; /* Add spacing between text and image */
+    }
+}
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+    .project {
+        flex-direction: row; /* Display project info and image side by side */
+        align-items: center; /* Center-align project content */
+    }
+
+    .project img {
+        max-width: 40%; /* Adjust image width for larger screens */
+        margin-right: 20px; /* Add spacing between image and text */
+    }
+
+    .project-info {
+        width: 60%;
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    .project {
+        flex-direction: column; /* Stack project info and image vertically */
+        align-items: center; /* Center-align project content */
+    }
+
+    .project img {
+        max-width: 100%; /* Full width for the image on smaller screens */
+        margin-bottom: 10px; /* Add spacing between projects */
+    }
+
+    .project-info {
+        width: 100%; /* Full width for text on smaller screens */
+        text-align: center; /* Center-align text */
+    }
+}
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+    #resume {
+        padding: 50px 0; /* Adjust padding for larger screens */
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    #resume {
+        padding: 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    #resume a {
+        display: block; /* Make the download link a block element */
+        width: 100%; /* Full width for the download link */
+        text-align: center; /* Center-align the download link */
+    }
+}
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+    #contact {
+        padding: 50px 0; /* Adjust padding for larger screens */
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    #contact {
+        padding: 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .contact-info p {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .contact-info a {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
